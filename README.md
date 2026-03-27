@@ -95,6 +95,10 @@ FINAL Q-Q plot of the model error (which represents the model performance) vs a 
 shows that model behaves fine and good for normal and data lying in the mid range.. and has errors that is pickups in the extreme range  for too small values or too large values 
 ---
 
+MODEL PERFORMANCE
+<img width="426" height="227" alt="image" src="https://github.com/user-attachments/assets/9ba6b71c-d69f-460e-8883-f18a02e5fef1" />
+MODEL RESULT WITH RANDOM FOREST REGRESSOR
+
 ## 🚀 Future Improvements
 
 * 🔥 Integrate real-time weather API
