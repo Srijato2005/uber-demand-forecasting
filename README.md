@@ -39,6 +39,7 @@ Key transformations:
 * Extracted **temporal features** (hour, weekday)
 * Handled missing values and outliers
 * Explored feature distributions using KDE plots
+* Applied rolling mean features to smoothen the fluctuating trends 
 
 ---
 
@@ -59,10 +60,12 @@ Why?
 ## ⚙️ Workflow
 
 1. Data Cleaning
-2. Feature Engineering
-3. Train-Test Split
-4. Model Training
-5. Evaluation
+2. EDA performed (univariate and bivariate analysis)
+3. Correlation tests
+4. Feature Engineering
+5. Train-Test Split
+6. Model Training
+7. Evaluation
 
 ---
 
@@ -72,6 +75,12 @@ Why?
 * Performs well on time-based variations
 
 *(Add graphs here later)*
+<img width="1330" height="961" alt="image" src="https://github.com/user-attachments/assets/ed7a6fab-b65f-4449-a4b7-65e1e4434322" />
+<img width="580" height="432" alt="image" src="https://github.com/user-attachments/assets/eef44406-fe64-46d4-97ca-2b0f1f22bad0" /> 
+Shows the extreme cases during holidays with the boxes representing the quartiles and the median and the extreme cases as the pickups 
+
+
+
 
 ---
 
